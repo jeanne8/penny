@@ -1,0 +1,24 @@
+body
+{
+    margin: 0;
+    height: 100vh;
+    background-color: #f0f0f0;
+    cursor: none;
+}
+
+#pencil
+{
+    width: 150px;
+    height: 150px;
+    background-image: url( 'pencil.gif'); /* Replace with the actual URL of of the pencil GIF */
+    background-size: cover;
+    position: absolute;
+    pointer-events: none; /* Prevent the pencil from blocking mouse events */
+    transition: tranform 0.1s ease; /* Smooth movemet */
+}
+
+
+button:hover 
+{
+    background-color: #ddd;
+}
